@@ -1,0 +1,138 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f3f4f6; /* Light gray background for a modern look */
+}
+
+/* Header */
+header {
+  background: #282c34; /* Darker gray for a professional header */
+  color: #fff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #555; /* Border for a clean divider */
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #61dafb; /* Accent color for hover effect */
+}
+
+/* Sections */
+section {
+  padding: 2.5rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: #ffffff; /* White background for content sections */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern touch */
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background-color: #61dafb;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #21a1f1;
+}
+
+label {
+  display: block;
+  margin: 1.2rem 0 0.5rem;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #61dafb; /* Light blue border on focus */
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 4px solid #555;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
