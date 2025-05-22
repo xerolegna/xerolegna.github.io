@@ -66,8 +66,8 @@ p {
 .button {
   display: inline-block;
   padding: 0.8rem 1.2rem;
-  background-color: #61dafb;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
