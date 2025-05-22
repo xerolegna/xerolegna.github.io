@@ -34,6 +34,14 @@ nav a {
   font-weight: 500;
 }
 
+nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
 nav a:hover {
   color: #61dafb; /* Accent color for hover effect */
 }
