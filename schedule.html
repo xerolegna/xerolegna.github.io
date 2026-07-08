@@ -3,49 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Schedule a Photoshoot</title>
+  <title>Schedule a Photoshoot | Rex Angelo Basulgan</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Schedule a Photoshoot</h1>
+    <h1><a href="index.html">Rex Angelo Basulgan</a></h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="photoscheduler.html" class="active">Photo Scheduler</a>
     </nav>
   </header>
 
-  <section id="schedule">
-    <h2>Book Your Session</h2>
-    <form action="https://hhgcm9elcb.execute-api.us-east-1.amazonaws.com/prod/schedule" method="POST">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
+  <div class="page-intro">
+    <h2>Schedule a Photoshoot</h2>
+    <p>Fill out the form below and we'll confirm your session.</p>
+  </div>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+  <main>
+    <section id="schedule">
+      <h2>Book Your Session</h2>
+      <form action="https://hhgcm9elcb.execute-api.us-east-1.amazonaws.com/prod/schedule" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-      <label for="date">Preferred Date:</label>
-      <input type="date" id="date" name="date" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
 
-      <label for="time">Preferred Time:</label>
-      <input type="time" id="time" name="time" required>
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
 
-      <label for="type">Type of Photoshoot:</label>
-      <select id="type" name="type" required>
-        <option value="portrait">Portrait</option>
-        <option value="family">Family</option>
-        <option value="event">Event</option>
-        <option value="other">Other</option>
-      </select>
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
 
-      <input type="submit" value="Submit">
-    </form>
-  </section>
+        <label for="type">Type of Photoshoot:</label>
+        <select id="type" name="type" required>
+          <option value="portrait">Portrait</option>
+          <option value="family">Family</option>
+          <option value="event">Event</option>
+          <option value="other">Other</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2024 Photoshoot Scheduler. All rights reserved.</p>
+    <p>&copy; 2026 Rex Angelo Basulgan. All rights reserved.</p>
   </footer>
 </body>
 </html>
