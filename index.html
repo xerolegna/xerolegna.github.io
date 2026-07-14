@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio of Rex Angelo Basulgan — IT professional specializing in IT support, systems administration, cybersecurity, and AWS cloud technologies.">
   <title>Rex Angelo Basulgan | IT Professional Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,6 +18,7 @@
       <a href="projects.html">Projects</a>
       <a href="certifications.html">Certifications</a>
       <a href="photoscheduler.html">Photo Scheduler</a>
+      <a href="Rex-Basulgan-Resume.pdf" target="_blank" rel="noopener" class="nav-cta">Resume</a>
     </nav>
   </header>
 
@@ -22,8 +26,12 @@
     <img class="profile"
          src="images/profile.jpg"
          alt="Portrait of Rex Angelo Basulgan">
-    <h2>Rex Angelo Basulgan</h2>
-    <p class="tagline">IT Professional &middot; CompTIA A+ Certified &middot; Cybersecurity &amp; Cloud</p>
+    <h2>Securing &amp; Supporting <span class="grad">Modern IT</span></h2>
+    <p class="tagline">
+      I'm Rex Angelo Basulgan &mdash; an IT professional with a foundation in IT infrastructure,
+      cybersecurity, networking, and hardware support. CompTIA A+ certified, AWS Academy graduate,
+      and driven to keep technology secure, reliable, and human-friendly.
+    </p>
     <div class="hero-actions">
       <a href="projects.html" class="button">View My Projects</a>
       <a href="certifications.html" class="button secondary">Certifications</a>
@@ -32,25 +40,76 @@
   </div>
 
   <main>
+    <div class="stats">
+      <div><span class="num">500+</span><span class="label">Security cameras maintained</span></div>
+      <div><span class="num">3+ yrs</span><span class="label">Professional IT experience</span></div>
+      <div><span class="num">11</span><span class="label">Certifications &amp; trainings</span></div>
+    </div>
+
     <section id="about">
-      <h2>About Me</h2>
+      <span class="eyebrow">01 / About Me</span>
+      <h2>Technology that empowers people</h2>
       <p>
-        I'm an IT professional passionate about building secure, reliable, and user-centered technology
-        solutions. I earned my Bachelor of Science in Information Technology from BYU&ndash;Hawaii and bring
-        hands-on experience in IT support, systems administration, cybersecurity, and cloud technologies
-        like AWS.
+        I earned my Bachelor of Science in Information Technology from BYU&ndash;Hawaii (GPA 3.74,
+        Upsilon Pi Epsilon Honor Society) and currently serve as an IT Specialist / Crime Prevention
+        Specialist at BYU&ndash;Hawaii, supporting the systems and security infrastructure that keep
+        campus safe.
       </p>
       <p>
-        With a background in both technical consulting and leadership, I've led teams, trained new hires,
-        and tackled real-world problems in academic and organizational environments. Originally from the
-        Philippines, I'm fluent in English and Filipino and love connecting with diverse communities.
-        I believe technology should be empowering, secure, and accessible &mdash; and I'm here to help make
-        that happen.
+        With a background in both technical consulting and leadership, I've led teams, trained new
+        hires, and tackled real-world problems in academic and organizational environments. Originally
+        from the Philippines, I'm fluent in English and Filipino and love connecting with diverse
+        communities. I believe technology should be empowering, secure, and accessible &mdash; and I'm
+        here to help make that happen.
       </p>
     </section>
 
+    <section id="experience">
+      <span class="eyebrow">02 / Experience</span>
+      <h2>Where I've made an impact</h2>
+      <ul class="timeline">
+        <li>
+          <span class="when">July 2025 &mdash; Present</span>
+          <h3>IT Specialist / Crime Prevention Specialist</h3>
+          <p class="where">Brigham Young University Hawaii</p>
+          <p>
+            Support the maintenance and operation of 500+ security cameras across campus, manage the
+            computer systems of the BYUH/PCC Security Office, and contribute to investigations and
+            standardized procedures for equipment and system management.
+          </p>
+          <p>
+            Leveraged AI tools (Claude AI) to build a full-stack IT management dashboard with React,
+            TypeScript, Supabase (PostgreSQL), and Tailwind CSS &mdash; featuring real-time data sync,
+            CRUD operations, and role-based access.
+          </p>
+        </li>
+        <li>
+          <span class="when">May 2022 &mdash; June 2025</span>
+          <h3>ITO CSR Tech Consultant / Media Services Technician (Student Lead)</h3>
+          <p class="where">Brigham Young University Hawaii</p>
+          <p>
+            Trained ~10 new employees each semester, led a team of 5+ in classroom technology
+            setups, and managed technical issues through the TeamDynamix ticketing system &mdash;
+            troubleshooting hardware, software, and connectivity problems across campus.
+          </p>
+        </li>
+        <li>
+          <span class="when">2021 &mdash; 2025</span>
+          <h3>BS in Information Technology</h3>
+          <p class="where">Brigham Young University Hawaii &middot; GPA 3.74 / 4.0</p>
+          <p>Upsilon Pi Epsilon Honor Society for academic achievement in the computing sciences.</p>
+        </li>
+        <li>
+          <span class="when">2018 &mdash; 2020</span>
+          <h3>Associate in Computer Technology</h3>
+          <p class="where">Baao Community College &middot; GPA 1.5 (93) / 1.0</p>
+        </li>
+      </ul>
+    </section>
+
     <section id="skills">
-      <h2>Core Skills</h2>
+      <span class="eyebrow">03 / Core Skills</span>
+      <h2>What I work with</h2>
       <div class="chips">
         <span>IT Support &amp; Help Desk</span>
         <span>Systems Administration</span>
@@ -59,13 +118,16 @@
         <span>Networking</span>
         <span>Hardware &amp; Troubleshooting</span>
         <span>Physical Security Systems (Genetec)</span>
-        <span>Web Development</span>
+        <span>Web Development (HTML/CSS/JS)</span>
+        <span>Python &middot; SQL</span>
+        <span>Full-Stack Development (React, TypeScript, Supabase)</span>
         <span>AI-Powered IT Automation (Claude API)</span>
       </div>
     </section>
 
     <section id="credentials">
-      <h2>Credentials at a Glance</h2>
+      <span class="eyebrow">04 / Credentials</span>
+      <h2>Certified and always learning</h2>
       <p>
         CompTIA A+ certified, with continued training in cybersecurity (CySA+, CEH v12 coursework),
         AWS Academy programs (Cloud Foundations, Cloud Architecting, Data Engineering, Machine Learning
@@ -80,6 +142,7 @@
     </section>
 
     <section id="contact">
+      <span class="eyebrow">05 / Contact</span>
       <h2>Get in Touch</h2>
       <p>
         I'm always open to new opportunities and collaborations. Let's build something great together.
@@ -87,12 +150,43 @@
       <div class="contact-links">
         <a class="button" href="mailto:xerolegna1@gmail.com">Email Me</a>
         <a class="button outline" href="https://github.com/xerolegna" target="_blank" rel="noopener">GitHub</a>
+        <a class="button outline" href="Rex-Basulgan-Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a class="button outline" href="https://www.linkedin.com/in/rexangelobasulgan/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Rex Angelo Basulgan. All rights reserved.</p>
+    <div class="footer-grid">
+      <div>
+        <h4>Rex Angelo Basulgan</h4>
+        <p>
+          IT professional focused on secure, reliable, user-centered technology &mdash; from campus
+          security infrastructure to AI-powered tooling.
+        </p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="photoscheduler.html">Photo Scheduler</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:xerolegna1@gmail.com">xerolegna1@gmail.com</a></li>
+          <li><a href="https://github.com/xerolegna" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/rexangelobasulgan/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="Rex-Basulgan-Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Rex Angelo Basulgan. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
